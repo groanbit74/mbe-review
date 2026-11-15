@@ -1,0 +1,798 @@
+{
+  "version": "0.8.66",
+  "branch": "review/consolidation",
+  "commit": "7de60fd",
+  "source_state": "working-tree changes included; see PACKAGE MANIFEST.json",
+  "files": [
+    {
+      "path": "BUILD.txt",
+      "size": 149,
+      "sha256": "61d76619cd481f3537c1f1bd316fa7f747967b4ea1937a5595a847b9724b56f7"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size": 110103,
+      "sha256": "2c528d184a589f69857b53e4dcb58ac1085f429289f77d93bf11bb34397a83e3"
+    },
+    {
+      "path": "READ ME FIRST.txt",
+      "size": 13208,
+      "sha256": "7d6e24ea35ded0a63c4ba2c2891ca1532a35fd2dca2e1e526338337d6cf8fcd2"
+    },
+    {
+      "path": "README.md",
+      "size": 7159,
+      "sha256": "b6ad926f95446b81947f4c338ebdae47b9fc0589d2b5bb35f5201f0c234c042a"
+    },
+    {
+      "path": "RUN-LOCALLY.md",
+      "size": 25606,
+      "sha256": "3e5f3c26238d5472563518750aba1eab8bfbe411979a8c3cc81ad94d45bc81bb"
+    },
+    {
+      "path": "Repair runtime.bat",
+      "size": 337,
+      "sha256": "9a8cd0038e1d613f8f27e2d9b3af78f026590c00ee781af16851cef02f4744f4"
+    },
+    {
+      "path": "Start Editor.bat",
+      "size": 545,
+      "sha256": "be624b63bd26d3df1c0a986280759c402f6532483e3e8ee483be873f82a0e316"
+    },
+    {
+      "path": "Start Editor.ps1",
+      "size": 8270,
+      "sha256": "27a8194389af80a96d166bb783d9ebbe0d0eab039fe52749c80937b0727b1aa5"
+    },
+    {
+      "path": "VERSION.txt",
+      "size": 7,
+      "sha256": "f1588634ee89561a72e2aae744fc336fc3e7b37f6d8da0c4452dad3f40246201"
+    },
+    {
+      "path": "data/editor/job.json",
+      "size": 14317,
+      "sha256": "82bf04c27b5b7a5c0c2c78a997c9e3521de4f9562d7eb40682b07eb4f87503a5"
+    },
+    {
+      "path": "docs/BUILDING_SETTINGS_CONSOLE_REVAMP.md",
+      "size": 3813,
+      "sha256": "d946c14ba4a044e5dfe1c9672546c9d433738f4ab7f682e8abd5d69ae8f1f9e6"
+    },
+    {
+      "path": "docs/CONNECTIONS.md",
+      "size": 5575,
+      "sha256": "2d9b578d958a9b2fc37d28455d523c8fe4910d825f0b645f4f702a93007b2adb"
+    },
+    {
+      "path": "docs/CURRENT_USER_CORRECTIONS.md",
+      "size": 4627,
+      "sha256": "05b188cebfc85df1d60adb4404a1a16302c42a7d1c411518eb9bd358df2ecaed"
+    },
+    {
+      "path": "docs/FIRST_JOB_ENDWALL_CORRECTIONS.md",
+      "size": 4079,
+      "sha256": "298cb548af9e4c7c710000c1cd9e5f46d66fe74f8d87e5d65e67a558524cbd11"
+    },
+    {
+      "path": "docs/NEXT_RELEASE_SCOPE.md",
+      "size": 2142,
+      "sha256": "a42dec4a072634f48a3f2c45936ea06250b41c5cff3eead561330b7d82c6c385"
+    },
+    {
+      "path": "docs/NEXT_RULES_USER_UPDATE.md",
+      "size": 4695,
+      "sha256": "78e6874f65d1fbe403b60d7f008e476b147c1ca0272ed647cb16d7afd9445eda"
+    },
+    {
+      "path": "docs/PIVOT_PLAN.md",
+      "size": 8834,
+      "sha256": "33589014814b701b1d9d740b3471dc129f1de3f3ffd76d2ff5d9f276da8bdfe8"
+    },
+    {
+      "path": "docs/REVIEW_ANSWERS_Q01_Q10.md",
+      "size": 6902,
+      "sha256": "a6bbe922aeec249fc9fc23134151466f27b28608acada494e7be0ab8a0eb6499"
+    },
+    {
+      "path": "docs/RULES.md",
+      "size": 3581,
+      "sha256": "b30b5fcef930176b5d236fee58fc84ca87e44ff41cad22f6d0d9e960972ae11b"
+    },
+    {
+      "path": "docs/RUN-LOCALLY.md",
+      "size": 25606,
+      "sha256": "3e5f3c26238d5472563518750aba1eab8bfbe411979a8c3cc81ad94d45bc81bb"
+    },
+    {
+      "path": "docs/V0.8.62_RELEASE.md",
+      "size": 1663,
+      "sha256": "994fde3ce8ef038c40c43d8ae66ff761d96594b1407357816bc740925af66f6b"
+    },
+    {
+      "path": "docs/V0.8.63_RELEASE.md",
+      "size": 1947,
+      "sha256": "7dcd27b295b5961830492793e924489407ccefd3b46aa8c2292fba114c0cf895"
+    },
+    {
+      "path": "docs/V0.8.64_RELEASE.md",
+      "size": 2251,
+      "sha256": "34ed15b47e0e1b5fcec65db10b6396933ee39998f826b0982d2df23ca47333a4"
+    },
+    {
+      "path": "docs/V0.8.65_RELEASE.md",
+      "size": 1579,
+      "sha256": "b5fca341d3b8e2ff421bf6fd23278b2434778aecec788357817fe74fec974d90"
+    },
+    {
+      "path": "docs/V0.8.66_RELEASE.md",
+      "size": 1442,
+      "sha256": "09989f8478307d3b5d72e59bbf809cf2244e4ff2bc4e91a53685ef98da03eede"
+    },
+    {
+      "path": "docs/design/SUPPLIERS-PRICING.md",
+      "size": 6211,
+      "sha256": "4700f3a564afbcec405b366112300ebfbfbccfd2930ecdb7acba8dc3a24dadca"
+    },
+    {
+      "path": "docs/specification/Metal-Building-Software-Master-Prompt.md",
+      "size": 61911,
+      "sha256": "6bd91f7401a35ece0cb9a4859457324ffa93688667f9dc96269cde86dfd06627"
+    },
+    {
+      "path": "launcher.py",
+      "size": 5547,
+      "sha256": "b485ed6c12762ef1f8b0661b434411848e80efa718c040a88ac44fd73edb9090"
+    },
+    {
+      "path": "mbdp/__init__.py",
+      "size": 459,
+      "sha256": "386dadf686d4922a85e89a28349a03b3abf0ca8139c7a969b0630edc8caccde2"
+    },
+    {
+      "path": "mbdp/cli.py",
+      "size": 2459,
+      "sha256": "cda0c8bd1e5a7e4fdf2c7b53331e72af022bf5dcfef1aedb4617570c7cf11653"
+    },
+    {
+      "path": "mbdp/detail/__init__.py",
+      "size": 699,
+      "sha256": "f232f739c9b0f8d6b5f18633adeb1f81728384962790db7b6e2f08c371f170ff"
+    },
+    {
+      "path": "mbdp/detail/base_options.py",
+      "size": 763,
+      "sha256": "1ff62bee2599ef933f1f3ddff02239eb3642de201d72df67e96fdd986a442e07"
+    },
+    {
+      "path": "mbdp/detail/bay_zones.py",
+      "size": 10693,
+      "sha256": "fb23c6d68667d38166a79e7cc89353af8b4fbb60979fba72847ba0269111d504"
+    },
+    {
+      "path": "mbdp/detail/building.py",
+      "size": 4982,
+      "sha256": "d1844d153be790072c27ffdac454566fb1cc7e777e4834dd6471d9ae8d5ef013"
+    },
+    {
+      "path": "mbdp/detail/channel_catalog.py",
+      "size": 2296,
+      "sha256": "30e4b23299cbee1a7529fd4a681d4a8e502462c5d7403b5090d693fd0d93f70c"
+    },
+    {
+      "path": "mbdp/detail/cladding.py",
+      "size": 46785,
+      "sha256": "14cd173a183ee10b79f72eb23087ea759a2b6147c6be340de7aec9ff1a9e0f4b"
+    },
+    {
+      "path": "mbdp/detail/clip_clearance.py",
+      "size": 1251,
+      "sha256": "20e615a8d2dfdd589cd69d21e31111be14726f8c4c57d1e609c2fda95d429345"
+    },
+    {
+      "path": "mbdp/detail/completion_scope.py",
+      "size": 10347,
+      "sha256": "194f3951d7a462bd43f0d358bf3a117d641a198d54fe7a9ce431993a26e904ce"
+    },
+    {
+      "path": "mbdp/detail/connections.py",
+      "size": 23004,
+      "sha256": "a36a68140d94cd0af7b47b80ad88b13419f06f30706988b6a077d81f4b951d3c"
+    },
+    {
+      "path": "mbdp/detail/contours.py",
+      "size": 7480,
+      "sha256": "b6acafd9c37b4e57b0c9fd509b793f15a8da7acea2a779577a0cdc5d7584f939"
+    },
+    {
+      "path": "mbdp/detail/data/mbci_pbr.json",
+      "size": 15732,
+      "sha256": "cdc8dda0c58f1e6c7c4e499f596e0ed4e3433d08e164537ef46b303a042fe957"
+    },
+    {
+      "path": "mbdp/detail/data/mbci_secondaries.json",
+      "size": 133742,
+      "sha256": "37bcd23c8ca0989d38beb6b2cf91660b5ccba8e447b300c6258e728efd9275af"
+    },
+    {
+      "path": "mbdp/detail/data/sss-supplier-reference.pdf",
+      "size": 1265092,
+      "sha256": "6c284d9477be50ac02d2d716ab9cab6d8fffb084d160ab58235c781d5ccf46fe"
+    },
+    {
+      "path": "mbdp/detail/data/sss-supplier-sources.json",
+      "size": 995,
+      "sha256": "70d0b3eeb2ee494f2943d4996602f9c96d8a823e192f2c808651e31fe6d9d552"
+    },
+    {
+      "path": "mbdp/detail/diagnostics.py",
+      "size": 26858,
+      "sha256": "cfe5a9a9c74bc9663c4740f28b4eceb970a600fcd2b85bb275e5529b6149ac7b"
+    },
+    {
+      "path": "mbdp/detail/drawing/__init__.py",
+      "size": 513,
+      "sha256": "b82ac29e8d22c82c81f89654976d66491d70882d552b0450821568e2964fb898"
+    },
+    {
+      "path": "mbdp/detail/drawing/additions_sheet.py",
+      "size": 23323,
+      "sha256": "03280cac550878e231fa45d30babc3a526eee989953bfbf69aa2fad083bb5687"
+    },
+    {
+      "path": "mbdp/detail/drawing/building_sheet.py",
+      "size": 5644,
+      "sha256": "c91b34de9e4ecc85085d2f7e95808780eff08715f590e589506d937d1ac6f454"
+    },
+    {
+      "path": "mbdp/detail/drawing/canvas.py",
+      "size": 13761,
+      "sha256": "1e3276e177fdeec1f00e03f6b6176cbc0c1cf27059be09599d0a3efcc1fb89e4"
+    },
+    {
+      "path": "mbdp/detail/drawing/cladding_sheet.py",
+      "size": 16355,
+      "sha256": "306e5328577465517b5e5914b9a5800a1e051b374ccf4d75571ce13ddf6338cf"
+    },
+    {
+      "path": "mbdp/detail/drawing/connection_sheet.py",
+      "size": 6329,
+      "sha256": "1fe74575987278d15e483ec6aafbc27576b9e02a27df5f9a14a9f46fe2f9d660"
+    },
+    {
+      "path": "mbdp/detail/drawing/connection_views.py",
+      "size": 4993,
+      "sha256": "6316b0c7fe5a5bde46ceb66fea51631c37b3f22b854bcad652f6e3b39fde6b3a"
+    },
+    {
+      "path": "mbdp/detail/drawing/coordination_views.py",
+      "size": 11438,
+      "sha256": "c76b2c38c7e761dddd941d0614f28971123d91027d4cd3b28d514383f39ba18f"
+    },
+    {
+      "path": "mbdp/detail/drawing/customer_elevations.py",
+      "size": 34821,
+      "sha256": "53dfb19bac93cc0ddcb0c67f9148e78f7cc21b8e4da66833298af52a4ae7ef83"
+    },
+    {
+      "path": "mbdp/detail/drawing/endwall_joint_sheet.py",
+      "size": 10412,
+      "sha256": "546a14659cde775b46a473d2f6708c3a4bd09c0547a301cf937dca2ca296e8be"
+    },
+    {
+      "path": "mbdp/detail/drawing/endwall_sheet.py",
+      "size": 14901,
+      "sha256": "d17edb139679c3cc1028362e18eca7a1e90c54a5c21d57a3eb942168ae359b17"
+    },
+    {
+      "path": "mbdp/detail/drawing/erection_views.py",
+      "size": 71861,
+      "sha256": "83cf66ecd4c924d508fdeb0a1f850d78f2d770ed52026b1f883890c4d856c242"
+    },
+    {
+      "path": "mbdp/detail/drawing/fabrication_sheet.py",
+      "size": 5971,
+      "sha256": "1effaf7aa85cb6775987f42996005e1175098c1b03dbde26b156ff1037674b33"
+    },
+    {
+      "path": "mbdp/detail/drawing/flush_clip_sheet.py",
+      "size": 5557,
+      "sha256": "bb38a5397a75c83c58f10958931635ac857717e1e67f6d367a31e3c6ae6ec658"
+    },
+    {
+      "path": "mbdp/detail/drawing/frame_sheet.py",
+      "size": 13203,
+      "sha256": "986fd0471e5124d95e63ac05e281ea2e7fb2ca861e37f62d04922e3449f351af"
+    },
+    {
+      "path": "mbdp/detail/drawing/frameline_sheets.py",
+      "size": 19757,
+      "sha256": "2f700c56d375e29fcbda067fe3b773ab277f7de7bcac50b62b3ce11998995034"
+    },
+    {
+      "path": "mbdp/detail/drawing/grade_sheet.py",
+      "size": 4424,
+      "sha256": "7c336a3886784897dd688ce0633070af85b83122df10966f35e99c11159e64ef"
+    },
+    {
+      "path": "mbdp/detail/drawing/inside_knee_sheet.py",
+      "size": 5560,
+      "sha256": "e2fdb241d373ca594181fd1f33052e6df6f94bf7841f69a658b7f71432ddacf4"
+    },
+    {
+      "path": "mbdp/detail/drawing/lean_low_sheet.py",
+      "size": 5004,
+      "sha256": "2ee76722956f6090687812008d60409aa492550cf794385812af0b149715c928"
+    },
+    {
+      "path": "mbdp/detail/drawing/lean_rafter_sheet.py",
+      "size": 16600,
+      "sha256": "889b7bc2e132780449530aa1c259d0f7bdbf331458e7e7955f2e7d499074709d"
+    },
+    {
+      "path": "mbdp/detail/drawing/lean_walls_sheet.py",
+      "size": 9035,
+      "sha256": "02990e35194ceeb94c322b4564be290bca8993a4e06ac2a4c06a78a715a8c237"
+    },
+    {
+      "path": "mbdp/detail/drawing/main_roof_sheet.py",
+      "size": 4289,
+      "sha256": "e11c7f341344b2714057947fbf643d1b86d3216addc1eb32fad47e93b929e12c"
+    },
+    {
+      "path": "mbdp/detail/drawing/opening_sections.py",
+      "size": 6715,
+      "sha256": "c66614aec7e2a637eca8671b582c9d888e66073c1d44d7be1cf3d3515e572793"
+    },
+    {
+      "path": "mbdp/detail/drawing/order_sheet.py",
+      "size": 9067,
+      "sha256": "9c792ae2dc4a7e0742daa90aa4dd5ca75c9a9f80efe6450f2b8406b26ac14c8c"
+    },
+    {
+      "path": "mbdp/detail/drawing/owner_fit_sheet.py",
+      "size": 9054,
+      "sha256": "eea0d115e35dcca1658d31cba598eb4eee0a5c8a8f5490e533dbf093239f6c17"
+    },
+    {
+      "path": "mbdp/detail/drawing/packages.py",
+      "size": 43361,
+      "sha256": "73bc629735c31d45c490e0b609477fd307afa9ce492a5302ac103bbf0c6b5a61"
+    },
+    {
+      "path": "mbdp/detail/drawing/print_packets.py",
+      "size": 15588,
+      "sha256": "eb0a49460fe377d40f77740341048176edc160416a6d4a2c58888acf45c9e225"
+    },
+    {
+      "path": "mbdp/detail/drawing/render_dxf.py",
+      "size": 4383,
+      "sha256": "713352be93293f57db6e86d2ef53f794543d067125c0adb70a15d1bd1a94ba6d"
+    },
+    {
+      "path": "mbdp/detail/drawing/render_pdf.py",
+      "size": 3576,
+      "sha256": "af7a7718aefaf445d69b214cfd16cf21e39819604b4987d4b2e2aaa5cc3d12cb"
+    },
+    {
+      "path": "mbdp/detail/drawing/render_svg.py",
+      "size": 2672,
+      "sha256": "ccb98df189e48af4f7fa61d568ff44cc50a5e8bf9a05e5cff3e38d2c29592201"
+    },
+    {
+      "path": "mbdp/detail/drawing/residential_rake_sheet.py",
+      "size": 3066,
+      "sha256": "41bd571f13aa2f689949f85ccc94ff6ff7521f0fc01b5d0b4f609e12f6a45852"
+    },
+    {
+      "path": "mbdp/detail/drawing/ridge_sheet.py",
+      "size": 5421,
+      "sha256": "a9bd135787541ebc7e498e45d539550f5a821b9070f2931673b1931056eb640f"
+    },
+    {
+      "path": "mbdp/detail/drawing/run_sheet.py",
+      "size": 9484,
+      "sha256": "782dfe284aef5d9a86d1fc4905e4d752a0e8ab44b978a6c9a9168910e45e3700"
+    },
+    {
+      "path": "mbdp/detail/drawing/secondary_sheet.py",
+      "size": 6626,
+      "sha256": "9ccfe228fe55d2d83e209d15eedfd46c5fcae3c90b4abeffa50c5726a64f1785"
+    },
+    {
+      "path": "mbdp/detail/drawing/sheet.py",
+      "size": 21443,
+      "sha256": "0783e64cdc271307c43a9a5a0866a7029f21490746ceb93799965c45b1097875"
+    },
+    {
+      "path": "mbdp/detail/drawing/template_sheet.py",
+      "size": 5347,
+      "sha256": "3896e8b31d94126ce3243bd1489d30b14e85a2d66a6f7fd839fb8f465bc5e74f"
+    },
+    {
+      "path": "mbdp/detail/drawing/views.py",
+      "size": 38056,
+      "sha256": "c76c7e5aeae97712f4f2608192be5782a6ab89c5d59bc2bd5a0af5c2f0d08ede"
+    },
+    {
+      "path": "mbdp/detail/drawing/welded_sheet.py",
+      "size": 28124,
+      "sha256": "56a2f2ba3664dff5f9fc610ef55635f69290c4cce3e33fa7a2c5e4428c0279d3"
+    },
+    {
+      "path": "mbdp/detail/eave_reference.py",
+      "size": 900,
+      "sha256": "912af4f13d7c2c14b87ccf51c4232969f92ecff257d6d56a4122d9e46d50f018"
+    },
+    {
+      "path": "mbdp/detail/editor/__init__.py",
+      "size": 68,
+      "sha256": "641f8b6559f57c2f3338213a307911c631ff3a06881b4d15713029c712b01866"
+    },
+    {
+      "path": "mbdp/detail/editor/job_library.py",
+      "size": 8411,
+      "sha256": "22c0b3f2b7060c92d1ed1c41f01e23fe05e30d8ae2b93ff5944d0b84eb0f59d0"
+    },
+    {
+      "path": "mbdp/detail/editor/server.py",
+      "size": 91173,
+      "sha256": "f489df9a93a22c4c38467fbca3f878d03cdc424704506bfa27080cca3b164069"
+    },
+    {
+      "path": "mbdp/detail/editor/static/app.js",
+      "size": 220761,
+      "sha256": "68db4719326ff7cc36dc4e73943a84ec37ee5b0774562686d97a7b1dc43906c7"
+    },
+    {
+      "path": "mbdp/detail/editor/static/dim.js",
+      "size": 3121,
+      "sha256": "9e40c6778c5a80517452a868a9091b37950fd17e0a6bb97e943859d425cff231"
+    },
+    {
+      "path": "mbdp/detail/editor/static/index.html",
+      "size": 16960,
+      "sha256": "3fa7e08970bebdc40a137102403b41d7d96f479fb1ff9e09354e3b241d17a044"
+    },
+    {
+      "path": "mbdp/detail/editor/static/outputs.js",
+      "size": 3105,
+      "sha256": "f8187311a20e96ad0a4b0423e1e0b067edd3992997ea7577e06472547f702468"
+    },
+    {
+      "path": "mbdp/detail/editor/static/settings_help.js",
+      "size": 23946,
+      "sha256": "7e6a2a8b098cf67d3298c9eb234e3f2bf1bc99b80fd525295b2c683723d818bb"
+    },
+    {
+      "path": "mbdp/detail/editor/static/settings_stepper.js",
+      "size": 52520,
+      "sha256": "a5993d7ee183cc550344cbbabb9b293bc80844f71ae3a1f9c1e43883127e4957"
+    },
+    {
+      "path": "mbdp/detail/editor/static/shop_rules.js",
+      "size": 2122,
+      "sha256": "b95515cb0131e8e6445bc8e02662bda310e9e6404bf5e8b9783b26fea4202d0b"
+    },
+    {
+      "path": "mbdp/detail/editor/static/style.css",
+      "size": 29165,
+      "sha256": "e2f1d7edebf56141a1fa4f09e9a25e09ace14072ace7d02bfb4106a2294c272a"
+    },
+    {
+      "path": "mbdp/detail/editor/static/viewer.js",
+      "size": 8974,
+      "sha256": "de9dd9bc2ca55ef45827ada8a1815795f1cf8dbf95d4496103557012d06855e4"
+    },
+    {
+      "path": "mbdp/detail/editor/static/workbench.js",
+      "size": 7621,
+      "sha256": "3d5a4c1dec0eb56e45432427505423760a098344ed61031a33ad372e262c6240"
+    },
+    {
+      "path": "mbdp/detail/enclosure.py",
+      "size": 4400,
+      "sha256": "5ec5cb016f0c0b78a874020ed809b4d6cb4a00b6e8fd2c6dcf0b5c0b495c3270"
+    },
+    {
+      "path": "mbdp/detail/endwall_supports.py",
+      "size": 22959,
+      "sha256": "57940daeda7a239e26d311c79b4f594a08af144992a83d9a4476951ce2db762d"
+    },
+    {
+      "path": "mbdp/detail/endwalls.py",
+      "size": 70402,
+      "sha256": "cd655c6ca4761d42c2c4f568c6ddd0809d0ae41bf8e9dc5eca9ca3ee9e2e41d1"
+    },
+    {
+      "path": "mbdp/detail/erection_templates.py",
+      "size": 26659,
+      "sha256": "b8636f3bf11342155650f75f4abdd5ade53eccdd6f0f2a34e453657d88cd284a"
+    },
+    {
+      "path": "mbdp/detail/foundation.py",
+      "size": 6863,
+      "sha256": "5f6700ecdb24f6cd54ee0073d368b16f4f1b24a3fd5f3b6c0b1942d71f02b776"
+    },
+    {
+      "path": "mbdp/detail/frame.py",
+      "size": 57766,
+      "sha256": "4659082f242bdd75beaa0a4bfa037ee31ec1432cab6e1150665d288c2d8f313f"
+    },
+    {
+      "path": "mbdp/detail/frame_layout.py",
+      "size": 7048,
+      "sha256": "740d6e3e1f6d0831fc777ce19a980ca376128bbe94551f77cc37c519fa43c92c"
+    },
+    {
+      "path": "mbdp/detail/frame_lines.py",
+      "size": 12537,
+      "sha256": "2c3fdbf1385e9765bcc7fa5f199a2c87989285104f79859bee22f79522f06279"
+    },
+    {
+      "path": "mbdp/detail/framing_additions.py",
+      "size": 64452,
+      "sha256": "806b467ee053e9904872fe4e35fcf81f7aab8e2a6ee1aa1105ea89be57011931"
+    },
+    {
+      "path": "mbdp/detail/girt_adjustments.py",
+      "size": 2649,
+      "sha256": "ed66019dc001e1b597b27108e6a05e9195ad5bf9fb8827a46a22fdb6d1feee76"
+    },
+    {
+      "path": "mbdp/detail/girt_clips.py",
+      "size": 5699,
+      "sha256": "a245f3f74874f9d6852ad3e359eb610eb94049340aa52f42276af094b0f914a9"
+    },
+    {
+      "path": "mbdp/detail/grades.py",
+      "size": 21971,
+      "sha256": "3931c3a4e0ff99e98e0e40f7ce571f64e57fd1ca3f9a3af8b1342e2608634ba9"
+    },
+    {
+      "path": "mbdp/detail/holds.py",
+      "size": 4620,
+      "sha256": "c3074006df2b98494bf3f82898392e252b83e5e7d75bc61ea6df40eed34b1e54"
+    },
+    {
+      "path": "mbdp/detail/layout_options.py",
+      "size": 6084,
+      "sha256": "ac7a8886a1a2dc18bfa8a344901890c68c759bbfd1ea2c079eb2695c8ce1b6c0"
+    },
+    {
+      "path": "mbdp/detail/lean_connections.py",
+      "size": 23060,
+      "sha256": "c80da70e1c893c1df04698821cf52f2e669e1419f48073ff87814122969b5749"
+    },
+    {
+      "path": "mbdp/detail/lean_cuts.py",
+      "size": 8853,
+      "sha256": "76b0b696de3913126fc0ce3f69b97eef2a62c7f41ecc78187374cac2ae9a2014"
+    },
+    {
+      "path": "mbdp/detail/lean_low.py",
+      "size": 13420,
+      "sha256": "90c1a68e6e9988618b64ae62d511f11eacf41adb76b62a1711074b59ad7340da"
+    },
+    {
+      "path": "mbdp/detail/lean_purlins.py",
+      "size": 16399,
+      "sha256": "25301d7e5188dfc3ce20fe6744996dac718df78d0a584e3796a12b317eb83e3c"
+    },
+    {
+      "path": "mbdp/detail/lean_walls.py",
+      "size": 27140,
+      "sha256": "b641a6fdd4131e09dd931276255ddbf56c92f2126537f78a6fa3d366f4477129"
+    },
+    {
+      "path": "mbdp/detail/legacy_upgrade.py",
+      "size": 8438,
+      "sha256": "66c60cf7f5351f122ac30232382ae48a721cb6674ca944823bdba13e1069803a"
+    },
+    {
+      "path": "mbdp/detail/material_comparison.py",
+      "size": 2121,
+      "sha256": "60f8d248717e9e793f7ca29bfe69f9f12d09ce005c8c9f74935c3baeba362388"
+    },
+    {
+      "path": "mbdp/detail/material_engine.py",
+      "size": 19155,
+      "sha256": "7b616cbd436a4f352434102be984f82f1602dc3967233fd8b4e45be3fd9860fd"
+    },
+    {
+      "path": "mbdp/detail/material_reports.py",
+      "size": 7310,
+      "sha256": "f8450620dfb78eba5383a5a1d9b3850dfd76d2f872e19bd6bd21af67d6e2b78c"
+    },
+    {
+      "path": "mbdp/detail/model.py",
+      "size": 28929,
+      "sha256": "b29b6ee3bbaf774575bf1f9e1859682b62e20923ae1516f976d7e8359a1c48e2"
+    },
+    {
+      "path": "mbdp/detail/opening_rules.py",
+      "size": 13939,
+      "sha256": "bab5116a9c1c6f44ef5ee4b098a05b7304e11a05736e616feb0569b7165fbd77"
+    },
+    {
+      "path": "mbdp/detail/order_workbook.py",
+      "size": 14592,
+      "sha256": "0127c6465461ae40ef56ecb82d9ebdc0fa96b98d8fa19f85efc3874d943785fe"
+    },
+    {
+      "path": "mbdp/detail/ordering.py",
+      "size": 56086,
+      "sha256": "cd408f99d2e4633ea95492112aacf493d6541bfe0057f435697ea65990b09699"
+    },
+    {
+      "path": "mbdp/detail/plasma_layout.py",
+      "size": 10328,
+      "sha256": "4834e716c4991c570c30a5900e21afe55b52711ba18a1f6963fadd1d4c94aac6"
+    },
+    {
+      "path": "mbdp/detail/plate_rules.py",
+      "size": 13265,
+      "sha256": "c49831f51abb4a518c5849489a2585e31d4f89fa94ec03c54e25d3a98f67e0d2"
+    },
+    {
+      "path": "mbdp/detail/pricing.py",
+      "size": 15154,
+      "sha256": "2184de0af312a81b7ddadcacb2bde4a4dcf792ed6fd7ec0506345c6ba024e067"
+    },
+    {
+      "path": "mbdp/detail/pricing_workbook.py",
+      "size": 32695,
+      "sha256": "8fc9558af3773b609de975c8cddcc48f1d9e07c50603c96526bec8709ab38206"
+    },
+    {
+      "path": "mbdp/detail/product_library.py",
+      "size": 7464,
+      "sha256": "eeb6db2a34228c99d5c1cc86eb511064fe3b319abcdbde742ce444d0aacc400d"
+    },
+    {
+      "path": "mbdp/detail/purchasing.py",
+      "size": 16875,
+      "sha256": "82dcf53dc8a93d733254ba4c8aa597695627ab36b8ec2dc9e0d67fabfa345d34"
+    },
+    {
+      "path": "mbdp/detail/purlin_lay.py",
+      "size": 5450,
+      "sha256": "a2e4c6fef0c85d2f2798c48730480d602b83f798b1c211e53577a4c965be2938"
+    },
+    {
+      "path": "mbdp/detail/release_checks.py",
+      "size": 5559,
+      "sha256": "1b0438996bb81f468c495f4a4f05ad30b5e2af40b0dffb2850b7e80cc03cc35e"
+    },
+    {
+      "path": "mbdp/detail/residential_rake.py",
+      "size": 1074,
+      "sha256": "55f715862ae1948c16a58dc00d38d7156760d358d9b30cf4c2c156d29ea1cbcb"
+    },
+    {
+      "path": "mbdp/detail/samples.py",
+      "size": 12832,
+      "sha256": "f225a82e131e0363429ee726a4682e6026aeb821a6d5c38b7e77be4aaa0dcb7e"
+    },
+    {
+      "path": "mbdp/detail/secondary_catalog.py",
+      "size": 11195,
+      "sha256": "7e97545fadc7d4d7ce97996de9177d83dd0459b93c263b47dc862c813a4d6351"
+    },
+    {
+      "path": "mbdp/detail/secondary_runs.py",
+      "size": 64068,
+      "sha256": "bb0f07b72014e239ecc658e8b001514349008ac779b52c35ed034833f28861e1"
+    },
+    {
+      "path": "mbdp/detail/sections.py",
+      "size": 6220,
+      "sha256": "6dc4b01064670cc1ec879d00274bb5ce19602c43177eb325e2287f31d0b31c94"
+    },
+    {
+      "path": "mbdp/detail/sheet_supports.py",
+      "size": 11466,
+      "sha256": "3e32e5ed2a01f314a2e88ad1fb876ad3b0f8b99b5326f5a1973f213a941e2458"
+    },
+    {
+      "path": "mbdp/detail/shopdata.py",
+      "size": 47526,
+      "sha256": "b827cf305f8fef4cd75878a1feeef60abe6a8746ba695bba817be580d8168ba8"
+    },
+    {
+      "path": "mbdp/detail/sss_catalog.py",
+      "size": 8550,
+      "sha256": "a2eb0a6b30daba67f5b22e00514c1af24cea6f380b7e5437202a158551df37b4"
+    },
+    {
+      "path": "mbdp/detail/standards.py",
+      "size": 18076,
+      "sha256": "d8966091b142783aa57364bbcc4407c8e49b66617bafcaf83eda087925f1920f"
+    },
+    {
+      "path": "mbdp/detail/supplier_catalog.py",
+      "size": 24647,
+      "sha256": "0051d80a4061bb4117612f76a1eebc032da0379de6c543a06a686a94dabd95b1"
+    },
+    {
+      "path": "mbdp/detail/supplier_products.py",
+      "size": 12008,
+      "sha256": "24c5ea91bed5ce712b410866e616c18d8f703ab82d5ae3ea9c86f33f5810f772"
+    },
+    {
+      "path": "mbdp/detail/templates.py",
+      "size": 9679,
+      "sha256": "831eb629bdac4435dad26afb81f2f7f8234dab576d2c8b001cb5b7839e6d87e8"
+    },
+    {
+      "path": "mbdp/detail/traceability.py",
+      "size": 13986,
+      "sha256": "5662301920a9f2bd784cdd0164a8ae9f6ef1fd0d582da1d073e00a2689752a74"
+    },
+    {
+      "path": "mbdp/detail/tube_sections.py",
+      "size": 2796,
+      "sha256": "99355442b2d00501a1fb77bbe7173e81ee6fdc768ecddca8b2b0f4928eb9510c"
+    },
+    {
+      "path": "mbdp/detail/walk_slip.py",
+      "size": 5408,
+      "sha256": "d30e834b37a98b4607fea35cd2bd8a90f1f31199bb4ca58970f7df8daee83dd9"
+    },
+    {
+      "path": "mbdp/detail/wall_connections.py",
+      "size": 11317,
+      "sha256": "a4802032ff6fdbdb0d4fc4ee58b6798a9af0eb2ba16ac0cb2448faf1045965ac"
+    },
+    {
+      "path": "mbdp/detail/wall_girts.py",
+      "size": 8871,
+      "sha256": "72872117edcffc69841211a1475c648d0256d110d6dd02d445fde479efc6f785"
+    },
+    {
+      "path": "mbdp/detail/welded_frame.py",
+      "size": 54572,
+      "sha256": "687d2f3414a2280e8cf8b9d1443469241fbb70c8471880924df0185f14bcf76c"
+    },
+    {
+      "path": "mbdp/detail/welded_knee.py",
+      "size": 3429,
+      "sha256": "128b960142454a3388fdb97561fa03f204cf4766b2e2e10fdae4f449fd1c9e76"
+    },
+    {
+      "path": "mbdp/dims.py",
+      "size": 7636,
+      "sha256": "fbcf1ff4be0ff098381ca5c670f940fff9bd60bc40d794b77dacf418cec3b560"
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 998,
+      "sha256": "9514e4298a4173bb0decf2bf69603e9e1c4d9dfaccccf978e66533e401b7c62f"
+    },
+    {
+      "path": "requirements.txt",
+      "size": 45,
+      "sha256": "0f5c340149b080616a4dfcf666678ca672b7b3e5d36f584112bc65b41e479551"
+    },
+    {
+      "path": "run-editor.sh",
+      "size": 169,
+      "sha256": "1aebf586fb3df820efbf05d9d2f940ff02b26cb5c834c56c245906669f1d0d02"
+    },
+    {
+      "path": "runtime-lock.json",
+      "size": 4056,
+      "sha256": "09685039fc3af9b9c8f2d9e524aadb741ff9252d4e8b7f89c3379b5eb007339d"
+    },
+    {
+      "path": "runtime_check.py",
+      "size": 3051,
+      "sha256": "b7b50b7b87337de30b4c008c0a6b853531b09b87cd9fc0e3b78b2a9222f08a86"
+    },
+    {
+      "path": "settings.json",
+      "size": 43,
+      "sha256": "5f8ab18e1a0a697797c05e7d6c4a52e79fd46bae575f46ad029620ea71216921"
+    }
+  ]
+}

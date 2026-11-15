@@ -1,0 +1,5 @@
+version 0.8.66
+branch review/consolidation
+commit 7de60fd
+source working-tree changes included; see PACKAGE MANIFEST.json
+built 2026-11-11 00:57 UTC

@@ -1,0 +1,36 @@
+[project]
+name = "mbdp"
+version = "0.8.66"
+description = "Metal Building Detailing Platform - source-traceable detailing & coordination pilot"
+requires-python = ">=3.10"
+dependencies = ["pymupdf>=1.24", "ezdxf>=1.4.4", "openpyxl>=3.1.5"]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff>=0.17", "playwright"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+include = ["mbdp*"]
+
+[tool.setuptools.package-data]
+"mbdp.detail.editor" = ["static/*"]
+
+"mbdp.detail" = ["data/*.json", "data/*.pdf"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+extend-exclude = ["history", "docs", "review", ".venv"]
+
+[tool.ruff.lint]
+# pyflakes + the pycodestyle errors ruff enables by default, plus import sorting.
+select = ["E4", "E7", "E9", "F", "I"]
+ignore = ["E731", "E741"]  # lambda assignments and short names (l, O, I) are used deliberately in the geometry code
+
+[tool.ruff.lint.isort]
+known-first-party = ["mbdp"]
+
+[tool.ruff.format]
+quote-style = "preserve"
